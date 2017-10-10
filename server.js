@@ -1,5 +1,5 @@
 var http = require('http');    
-var urls = ["https://www.youtube.com/channel/UCDo9msNItILnyF_Y2eHaNQg", "https://www.youtube.com/watch?v=dKnoOdDLy4o", "https://www.youtube.com/watch?v=34UCkAJKt6M", "https://www.youtube.com/watch?v=-Zy28mVeVZw", "https://www.youtube.com/watch?v=IAXcT5ZRzq8"];
+var urls = ["http://www.youtube.com/channel/UCDo9msNItILnyF_Y2eHaNQg", "http://www.youtube.com/watch?v=dKnoOdDLy4o", "http://www.youtube.com/watch?v=34UCkAJKt6M", "http://www.youtube.com/watch?v=-Zy28mVeVZw", "http://www.youtube.com/watch?v=IAXcT5ZRzq8"];
 var responses = [];
 var completed_requests = 0;
 for (i in urls) {
